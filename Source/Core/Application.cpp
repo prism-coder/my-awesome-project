@@ -28,6 +28,8 @@ void Application::Run() {
 }
 
 void Application::PushLayer(Ref<Layer> layer) {
+	std::cout << "New Layer is being pushed" << std::endl;
+
 	m_Layers.push_back(layer);
 	layer->OnAttach();
 }
