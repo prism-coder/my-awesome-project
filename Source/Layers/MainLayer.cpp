@@ -16,4 +16,7 @@ void MainLayer::OnDetach() {
 
 void MainLayer::OnUpdate(Timestep timestep) {
 	std::cout << m_HelloWorld << std::endl;
+	// Do a thing
+
+	// Do another thing
 }

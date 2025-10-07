@@ -6,6 +6,7 @@
 Application::Application(const ApplicationSpecification& specification)
 	: m_Specification(specification)
 {
+	// This is a comment
 	s_Instance = this;
 	Initialize();
 }
