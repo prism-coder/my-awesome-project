@@ -416,3 +416,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Generated files and folders
+.vs/
+*.sln
+*.vcxproj*
+bin/
+bin-int/
